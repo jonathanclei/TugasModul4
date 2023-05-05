@@ -7,14 +7,7 @@ class Buku {
         int harga_buku;
 };
 
-void print_menu() {
-    cout << "Menu Pembelian Buku" << endl;
-    cout << "1. Buku Novel" << endl;
-    cout << "2. Buku Pelajaran" << endl;
-    cout << "3. Buku Agama" << endl;
-    cout << "4. Buku Komik" << endl;
-    cout << "5. Keluar Program" << endl;
-}
+
 
 void print_invoice(int jumlah_buku, int total_harga) {
     cout << "================================" << endl;
@@ -25,7 +18,7 @@ void print_invoice(int jumlah_buku, int total_harga) {
     cout << "Terima kasih telah berbelanja!" << endl;
     cout << "================================" << endl;
 }
-
+//ini adalah
 int hitung_diskon(int total_harga) {
     int diskon = 0;
     if (total_harga >= 500000) {
